@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script>
+$(function () {
+$("#datepicker").datepicker();
+});
+</script>
+    </head>
+    
+    <body>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="title" align="middle">
+                        <img src="whiskers.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Climate Change">
+                                    <span class="input-group-btn">
+                                        <a class="btn btn-success" type="submit">Go</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" id="date" ><h3>Date range</h3>
+                        <div id="cal-heatmap"></div>
+                        <div id="datepicker"></div>
+                    </div>
+                    <div class="col-md-4" id="media_filter" ><h3>Media type</h3>
+                        <button type="button">FEATURE</button>
+                        <button type="button">VIDEO</button>
+                        <button type="button">MULTIMEDIA</button>
+                        <button type="button">AUDIO</button>
+                        <button type="button">NEWS</button>
+                        <button type="button">INFOGRAPHIC</button>
+                        <button type="button">INTERVIEW</button>
+                        <button type="button">OPINION</button>
+                        <button type="button">REPORT</button>
+                        <button type="button">INTERACTIVE</button>
+
+                    </div>
+                    
+                    <div class="col-md-4" id="sources" ><h3>Sources</h3>
+                        <button type="button" class="sel1_btn">The Guardian</button>
+                        <button type="button" class="sel2_btn">The New York Times</button>
+                        <button type="button">The Times</button>
+                        <button type="button">The Wall Street Journal</button>
+                        <button type="button">The Daily Telegraph</button>
+                        <button type="button">Financial Times</button>
+                        <button type="button">The Daily Mail</button>
+                        <button type="button">The Sun</button>
+	                    <button type="button">The Independent</button>
+                        <button type="button">USA Today</button>
+                        <button type="button">BBC</button>
+                        <button type="button">Zeit Online</button>
+                        <button type="button">Suedeutsche</button>
+                        <button type="button">getty images</button>
+                        <button type="button">Washington Post</button>
+                        <button type="button">YouTube</button>
+                        <button type="button">El Pais</button>
+                        <button type="button">La Monde</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="graph">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"><img src="Rplot.png" alt="The official HTML5 Icon"></div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="section" >
+
+           <div class="container">
+                <div class="row" id="articles">
+                <h2 class="sel1">The New York Times</h2>
+                    <div class="col-md-3">
+                        <img src="thumbs/nyt_01.jpg" class="img-responsive">
+                        <h4>The Thorny Task of Advocating Good Corporate Behavior</h4>
+                        <p>
+ In the war to control corporations, the California Public Employees’ Retirement System, the $300 billion pension fund, has decided that it is willing to actively press companies to emphasize the ...
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="thumbs/nyt_02.jpg" class="img-responsive">
+                        <h4>Amazon Forest Becoming Less of a Climate Change Safety Net</h4>
+                        <p>
+The ability of the Amazon forest to soak up excess carbon dioxide is weakening over time,researchers reported last week. That finding suggests that limiting climate change could be more difficult ... 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="thumbs/nyt_03.jpg" class="img-responsive img-rounded">
+                        <h4>McConnell Urges States to Help Thwart Obama’s ‘War on Coal’</h4>
+                        <p>
+WASHINGTON — Senator Mitch McConnell of Kentucky has begun an aggressive campaign to block President Obama’s climate change agenda in statehouses and courtrooms across the country, arenas far ...
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="thumbs/nyt_04.jpg" class="img-responsive">
+                        <h4>Obama Orders Cuts in Federal Greenhouse Gas Emissions</h4>
+                        <p>
+WASHINGTON — President Obama signed an executive order on Thursday to set new goals for reducing the greenhouse gas emissions of federal agencies, his latest use of his executive authority to ...
+                    </div>
+                </div>
+
+
+
+
+                <div class="container">
+                <div class="row" id="articles">
+                <h2 class="sel2">The Guardian</h2>
+
+                    <div class="col-md-3">
+                        <img src="thumbs/guar_01.jpg"
+                        class="img-responsive">
+                        <h4>In vast swaths of rural New South Wales, there's only one election issue: coal seam gas</h4>
+                        <p>
+                        CSG is a big vote swinger in the country, with many communities declaring themselves ‘gasfield free’. This is not just about the environment, writes our reporter: ...
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="thumbs/guar_02.jpg"
+                        class="img-responsive">
+                        <h4>Rockefeller family tried and failed to get ExxonMobil to accept climate change</h4>
+                        <p>
+Founding family of the US oil empire Exxon, begged the company to give up climate denial and reform their ways a decade ago – but attempts at engagement failed ...
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="thumbs/guar_03.jpg"
+                        class="img-responsive img-rounded">
+                        <h4>United Reformed Church of Scotland divests from fossil fuels</h4>
+                        <p>
+United Reformed Church of Scotland commits to move assets out of oil, gas and coal companies and to not invest in fossil fuels in the future ...
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="thumbs/guar_04.jpg"
+                        class="img-responsive">
+                        <h4>Earth hour: millions will switch off lights around the world for climate action</h4>
+                        <p>
+Annual switching off of lights in homes, businesses and landmarks on Saturday evening holds extra significance ahead of this year's climate talks in Paris, says the UN secretary ...
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="pager">
+                            <li>
+                                <a href="#">←  Prev</a>
+                            </li>
+                            <li>
+                                <a href="#">Next  →</a>
+                            </li>
+                        </ul>
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
