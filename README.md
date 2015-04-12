@@ -7,4 +7,8 @@ We are working on a dynamic content analysis tool for journalists, students and 
 
 We are a team of journalists and coders formed during #BuildTheNews.
 
+Live preview for BTN:
+http://slides.com/lukasrapp/deck#/
 
+BTN presentation:
+http://www.lukaslovesphotos.com/btn/index.html
